@@ -1,0 +1,109 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    color:  #393B44;
+
+}
+
+h1, h3{
+    text-align: center;
+    font-size: 24px;
+}
+p{
+  font-size: 18px;
+}
+
+.content{
+  margin-left: 10px;
+  font-size: 17px;
+}
+/*********************footer-site-navbar start*******************/
+.site-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#e49f0a;
+    text-align: center;
+    
+  }
+  
+  .site-navbar li {
+  display: block;
+  list-style-type: none;
+  float: left;
+  padding-left: 20px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 2px;
+  
+  }
+
+  .site-navbar li a {
+    display:block;
+    color:  #f3e8db;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 16px;
+    font-weight: bolder;
+  }
+  
+  .site-navbar li a:hover {
+    background-color: #e7c6a1;
+    color: #393B44;
+}
+
+#footer-navbar .site-navbar{
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.cp-text { 
+  color: #393B44; 
+  text-shadow: 0 1px #393B44;
+  text-align: center;
+  margin-top: 1%;
+}
+
+/*****************footer-site-navbar end*******************/
+
+.healthy-recipes {
+  font-style: italic;
+  color: #393B44;
+}
+
+.img {
+  position: relative;
+  float:right;
+  width:470px;
+  height: 300px;
+  margin: 30px 10px 0px 0px;
+  border-radius:8px ;
+  box-shadow: 0 4px 8px 0 rgba(54, 38, 14, 0.568), 
+              0 6px 20px 0 rgba(37, 36, 36, 0.19);
+}
+
+.title h1 {
+      text-align: center;
+      font-size:40px; 
+      font-weight:250px;
+      letter-spacing:15px;
+      text-transform: uppercase;
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-gap: 20px;
+      align-items: center;
+      
+  }
+  
+  .title h1:after,.title h1:before {
+      content: "";
+      display: block;
+      border-bottom: 1px solid #000000;
+      height: 5px;
+  }
+  
+  .web-content-recipes{
+    border:2px solid #a87f5f;
+    border-radius: 10px;
+  }
+
